@@ -47,6 +47,11 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+        				<mainClass>org.cjf.demo.DemoApplication</mainClass>
+					<finalName>service</finalName>
+					<outputDirectory>target</outputDirectory>
+    				</configuration>
 			</plugin>
 		</plugins>
 	</build>
