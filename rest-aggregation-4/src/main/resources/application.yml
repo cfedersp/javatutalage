@@ -1,2 +1,6 @@
-demo:
-  welcomeMsg: Greetings from Spring Boot!
+stub:
+  message: Greetings from Stub!
+
+feature:
+  message:
+    provider: stub

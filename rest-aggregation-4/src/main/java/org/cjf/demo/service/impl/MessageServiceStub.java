@@ -14,7 +14,7 @@ import org.cjf.demo.service.MessageService;
 @ConditionalOnProperty(prefix = "feature.message", name="provider", havingValue="stub")
 public class MessageServiceStub implements MessageService {
 	
-	@Value("stub.message")
+	@Value("${stub.message}")
 	private String message;
 
 	public String getMessage() {
