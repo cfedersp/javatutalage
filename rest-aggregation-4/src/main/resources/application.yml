@@ -3,4 +3,7 @@ stub:
 
 feature:
   message:
-    provider: stub
+    provider: V1
+
+messageProvider:
+  uri: https://localhost:8888
