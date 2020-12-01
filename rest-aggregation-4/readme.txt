@@ -11,6 +11,8 @@ aws ecr get-login-password --region us-west-2 | docker login --username AWS --pa
 
 ./build-docker.sh
 
-docker tag myeksrepo:latest 179807815375.dkr.ecr.us-west-2.amazonaws.com/myeksrepo:latest
+aws ecr create-repository --region us-west-2  --repository-name rest-aggregation
 
-docker push 179807815375.dkr.ecr.us-west-2.amazonaws.com/myeksrepo:latest
+docker tag rest-aggregation:latest 179807815375.dkr.ecr.us-west-2.amazonaws.com/rest-aggregation:latest
+
+docker push 179807815375.dkr.ecr.us-west-2.amazonaws.com/rest-aggregation:latest
