@@ -17,3 +17,5 @@ docker tag sb-rest:latest 179807815375.dkr.ecr.us-west-2.amazonaws.com/sb-rest:l
 
 docker push 179807815375.dkr.ecr.us-west-2.amazonaws.com/sb-rest:latest
 
+Reference:
+https://www.vogella.com/tutorials/Hamcrest/article.html

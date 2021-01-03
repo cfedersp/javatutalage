@@ -1,0 +1,5 @@
+demo:
+  welcomeMsg: Greetings from Spring Boot!
+  
+server:
+  port : 8080
